@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>My Website Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="Logo">
+                <h1>Ayanda M</h1>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+	
+	<ul>
+	<li id="name"></li>
+	<li id="surname"></li>
+	<li id="age"></li>
+	<li id="education"></li>
+	<li id="contact"></li>
+	<li id="bio"></li>
+	</ul>
+            <script>
+		var name= "Name: Ayanda"
+		var surname= "Surname: Mtolo"
+		var age= "Age: 22"
+		var education= "course:Diploma in Sport Management At Vaal University of Technology"
+		var contact= "email:dimphomtolo@gmail.com phone:072-539-6798"
+
+		document.getElementById("name"+"").innerHTML = name;
+		document.getElementById("surname").innerHTML = surname;
+		document.getElementById("age").innerHTML = age;
+		document.getElementById("education").innerHTML = education;
+		document.getElementById("contact").innerHTML = contact;
+            </script>
+        </header>
+        <section id="Video">
+            <video src="myvideo.mp4" width="100%" height="100%" controls></video>
+        </section>
+        <br>
+        <br>
+        <div class="Bio">
+            <h2>Ayanda Dimpho Mtolo</h2>
+            <br>
+            <p>Hey there Buddies!Just a Soweto girl here to invite you to my world.Stay tuned to this Website,as I'll be sharing my journey of growth and learning.Looking forward to knowing and growing with you friends.Much love,Ayanda M </p>
+        </div>
+    <div>
+    <img class="bio-pic" src="Ayanda.jpg">
+    </div>
+</body>
+<footer>
+    <div id="address">
+        <address>
+                2161 Mvurthu Street<br>
+                Emdeni Ext,Soweto(South Africa)<br>
+                Postal Code: 1868<br>
+            </address>
+        </div>
+                    <div class="social-media">
+                        <a href="https://facebook.com/ayandadimpho.mtolo"><img src="facebook-line.png" alt="Facebook"></a>
+                        <a href="https://twitter.com/Mabhanekazi4"><img src="twitter-x-fill.png" alt="Twitter"></a>
+                        <a href="https://www.instagram.com/aya_mtolo/"><img src="instagram-fill.png" alt="Instagram"></a>
+                    </div>
+                    <p>Phone: 072-539-6798</p>
+                    <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14314.193203348168!2d27.80980130179724!3d-26.243862582831134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a3f891dbbeb7%3A0x837e33c328aa3bf5!2sEmndeni%20Library!5e0!3m2!1sen!2sza!4v1712523948038!5m2!1sen!2sza" width="400" height="300" style="border:0; padding:20px; float:right;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </footer>
+</html>
